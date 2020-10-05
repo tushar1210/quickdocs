@@ -15,4 +15,5 @@ jobs:
         uses: actions/checkout@master
       - name: Testing
         run: |
+          npm i
           npm run build
